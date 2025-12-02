@@ -9,7 +9,7 @@ python demo.py
 View Outputs
 Risk reports: data/samples/risk_report.md
 PnL charts: data/samples/pnl_curve.png
-Execution visuals: data/samples/vwap_twap.png
+Execution visuals
 
 To customise parameters (Optional) 
 Modify config.py to adjust trade size, execution strategy, or risk settings
