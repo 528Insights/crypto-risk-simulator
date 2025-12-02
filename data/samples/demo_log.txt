@@ -1,0 +1,72 @@
+2025-12-02 10:53:07,086 [INFO] === Starting Crypto Derivatives and Risk Simulator Demo at 2025-12-02 10:53:07 UTC ===
+2025-12-02 10:53:07,086 [INFO] Running in snapshot mode: capturing a single spot order book
+2025-12-02 10:53:15,032 [INFO] Saved single snapshot to data/samples/orderbook_snapshot.csv
+2025-12-02 10:53:15,032 [INFO] Mid price: 87436.20, top spread: 0.01
+2025-12-02 10:53:15,035 [INFO] NDF 7D Forward: 87486.52 | Bid: 87377.16 | Ask: 87595.87
+2025-12-02 10:53:15,039 [INFO] VWAP avg: 87672.59, slippage: 0.0 bps
+2025-12-02 10:53:15,039 [INFO] TWAP avg: 87680.04, slippage: 0.0 bps
+2025-12-02 10:53:15,039 [INFO] Unrealized PnL: 4475.09, Fees estimate: 100.27, Net: 4374.82
+2025-12-02 10:53:15,040 [INFO] ---- Risk Analysis ----
+2025-12-02 10:53:15,649 [INFO] Resampled Historical 99% Long VaR (250 days) on $500,000: $45,350
+2025-12-02 10:53:15,650 [INFO] Resampled Historical 99% Short VaR (60 days) on $500,000: $45,350
+2025-12-02 10:53:15,652 [INFO] Hourly Intraday 99% VaR on $500,000: $28,137
+2025-12-02 10:53:15,654 [INFO] 
+|    |   Shock |   Fees |   Volatility |   Shocked Price |   Net PnL |
+|----|---------|--------|--------------|-----------------|-----------|
+|  0 |    -0.2 |    1   |          1   |         69949   | -100600   |
+|  1 |    -0.2 |    1   |          1.5 |         69949   | -100700   |
+|  2 |    -0.2 |    1   |          2   |         69949   | -100800   |
+|  3 |    -0.2 |    1.5 |          1   |         69949   | -100800   |
+|  4 |    -0.2 |    1.5 |          1.5 |         69949   | -100900   |
+|  5 |    -0.2 |    1.5 |          2   |         69949   | -101000   |
+|  6 |    -0.2 |    2   |          1   |         69949   | -101000   |
+|  7 |    -0.2 |    2   |          1.5 |         69949   | -101100   |
+|  8 |    -0.2 |    2   |          2   |         69949   | -101200   |
+|  9 |    -0.1 |    1   |          1   |         78692.6 |  -50675   |
+| 10 |    -0.1 |    1   |          1.5 |         78692.6 |  -50787.5 |
+| 11 |    -0.1 |    1   |          2   |         78692.6 |  -50900   |
+| 12 |    -0.1 |    1.5 |          1   |         78692.6 |  -50900   |
+| 13 |    -0.1 |    1.5 |          1.5 |         78692.6 |  -51012.5 |
+| 14 |    -0.1 |    1.5 |          2   |         78692.6 |  -51125   |
+| 15 |    -0.1 |    2   |          1   |         78692.6 |  -51125   |
+| 16 |    -0.1 |    2   |          1.5 |         78692.6 |  -51237.5 |
+| 17 |    -0.1 |    2   |          2   |         78692.6 |  -51350   |
+| 18 |     0.1 |    1   |          1   |         96179.8 |   49175   |
+| 19 |     0.1 |    1   |          1.5 |         96179.8 |   49037.5 |
+| 20 |     0.1 |    1   |          2   |         96179.8 |   48900   |
+| 21 |     0.1 |    1.5 |          1   |         96179.8 |   48900   |
+| 22 |     0.1 |    1.5 |          1.5 |         96179.8 |   48762.5 |
+| 23 |     0.1 |    1.5 |          2   |         96179.8 |   48625   |
+| 24 |     0.1 |    2   |          1   |         96179.8 |   48625   |
+| 25 |     0.1 |    2   |          1.5 |         96179.8 |   48487.5 |
+| 26 |     0.1 |    2   |          2   |         96179.8 |   48350   |
+| 27 |     0.2 |    1   |          1   |        104923   |   99100   |
+| 28 |     0.2 |    1   |          1.5 |        104923   |   98950   |
+| 29 |     0.2 |    1   |          2   |        104923   |   98800   |
+| 30 |     0.2 |    1.5 |          1   |        104923   |   98800   |
+| 31 |     0.2 |    1.5 |          1.5 |        104923   |   98650   |
+| 32 |     0.2 |    1.5 |          2   |        104923   |   98500   |
+| 33 |     0.2 |    2   |          1   |        104923   |   98500   |
+| 34 |     0.2 |    2   |          1.5 |        104923   |   98350   |
+| 35 |     0.2 |    2   |          2   |        104923   |   98200   |
+2025-12-02 10:53:15,661 [INFO] Risk report saved to C:\Users\empre\Documents\Job Applications\Projects\Crypto Derivatives + Risk Simulator\data\samples\risk_report_2025-12-02_10-53-15.md
+2025-12-02 10:53:15,661 [INFO] Full risk CSV saved to C:\Users\empre\Documents\Job Applications\Projects\Crypto Derivatives + Risk Simulator\data\samples\risk_full_2025-12-02_10-53-15.csv
+2025-12-02 10:53:15,994 [INFO] 
+| Metric              | Value    |
+|---------------------|----------|
+| Mid Price           | 87436.20 |
+| NDF Forward (1W)    | 87486.52 |
+| NDF Bid             | 87377.16 |
+| NDF Ask             | 87595.87 |
+| VWAP Avg            | 87672.59 |
+| VWAP Slippage (bps) | 0.0      |
+| TWAP Avg            | 87680.04 |
+| TWAP Slippage (bps) | 0.0      |
+| Unrealized PnL      | 4475.09  |
+| Fees Estimate       | 100.27   |
+| Net PnL             | 4374.82  |
+| VaR 99% Long        | 45,350   |
+| VaR 99% Short       | 45,350   |
+2025-12-02 10:53:15,994 [INFO]  Demo finished in snapshot mode. Results saved to data/samples/orderbook_snapshot.csv
+2025-12-02 10:53:15,994 [INFO] === Demo Completed Successfully at 2025-12-02 10:53:15 UTC===
+2025-12-02 10:53:15,995 [INFO] Total runtime: 0 days 00:00:08
