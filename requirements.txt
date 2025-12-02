@@ -1,0 +1,8 @@
+ccxt
+pandas
+numpy
+matplotlib
+plotly
+scipy
+streamlit
+tabulate
